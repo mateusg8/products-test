@@ -37,7 +37,7 @@
       <div class="modal-header">
         <h5 v-if="createModal" class="modal-title">Criar novo produto</h5>
         <h5 v-if="editModal" class="modal-title">Editar produto</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" v-on:click="closeModal()" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -112,6 +112,8 @@ export default {
         },
         cleanModal(){
             this.editItem = new Object;
+            this.createModal = false;
+            this.editModal = false;
         },
         deleteProduct(item){
             axios.delete('products/'+item.id).then(e=>{

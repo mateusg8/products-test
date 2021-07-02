@@ -1993,6 +1993,8 @@ __webpack_require__.r(__webpack_exports__);
     },
     cleanModal: function cleanModal() {
       this.editItem = new Object();
+      this.createModal = false;
+      this.editModal = false;
     },
     deleteProduct: function deleteProduct(item) {
       var _this = this;
