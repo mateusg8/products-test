@@ -6,14 +6,14 @@
 Este projeto trata-se de um teste técnico feito com laravel e vue. Cujo objetivo é desenolver um CRUD de produtos com os campos nome, marca, preço e quantidade em estoque.
 
 # Pre-requisitos para rodar o projeto
-##Abra o seu terminal de preferência e mantenha na pasta raiz do projeto.
+## Abra o seu terminal de preferência e mantenha na pasta raiz do projeto. Crie um novo arquivo ( .env ) e copie o conteúdo de ( .env.example ).
 Execute os seguitnes comandos
 ```sh
 composer update
 php artisan key:generate
 ```
 
-Você terá de configurar o arquivo .env. Que fica na raiz do projeto. Adicionando as informações de um banco de dados.
+Você terá de alterar no arquivo .env. Adicionando as informações de um banco de dados já existente e vazio.
 ```env
 DB_CONNECTION=pgsql     # Serviço de banco de dados utilizado
 DB_HOST=localhost       # Host padrão do serviço
