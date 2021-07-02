@@ -33,3 +33,8 @@ Finalizando, basta executarmos nosso servidor php laravel e seguirmos para os te
 ```sh
 php artisan serve
 ```
+### Imagens do projeto
+![image](https://user-images.githubusercontent.com/16859195/124271615-0da9e900-db14-11eb-97a7-4f4924e9f1f9.png)
+![image](https://user-images.githubusercontent.com/16859195/124271670-1d293200-db14-11eb-8171-87df188da4f7.png)
+![image](https://user-images.githubusercontent.com/16859195/124271706-2a462100-db14-11eb-8932-3cc4c1409d50.png)
+
