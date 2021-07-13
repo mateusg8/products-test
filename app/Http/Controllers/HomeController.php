@@ -25,7 +25,7 @@ class HomeController extends Controller
     {
         return view('home');
         /*Teste pull request
-         *
+         *erro
          */
     }
 }
